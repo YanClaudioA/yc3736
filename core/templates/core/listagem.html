@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <h1>Lista de Clientes </h1>
+      ------------------------------------------<br>
+    {% for i in dados %}
+        <b>Nome:</b> {{ i.nome }} <br>
+        <b>Email:</b> {{ i.email }} <br>
+        <b>Endereco:</b> {{ i.endereco }}     <br>
+
+    {% endfor %}
+</body>
+</html>
